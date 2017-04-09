@@ -8,18 +8,33 @@
 
 import UIKit
 import Messages
+import SpriteKit
 
 class MessagesViewController: MSMessagesAppViewController {
+
+       var strawberry = ["Cocktails" , " Theres a maniac in the mailbox" , " Kims goat feet" , " Pineapple juice" , "Hamster", "Ski", ""]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+     
+        
+      
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func funnyButtonPressed() {
+        
+        self.activeConversation?.insertText(strawberry[Int(arc4random_uniform(UInt32(strawberry.count)))])
+    
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     // MARK: - Conversation Handling
     

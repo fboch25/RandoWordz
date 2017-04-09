@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "ae9f3a15884ace3869b931d3947ee6cf"
+build_time: [544988432, 401211000]
+inputs:
+  "/Users/Mrbochiballs1/MakeSchool/Ballz/MessagesExtension/MessagesViewController.swift": [544987300, 0]
